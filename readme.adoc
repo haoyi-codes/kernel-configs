@@ -12,5 +12,5 @@ This repository holds my kernel configurations for each production system.
 
 ==== Kernel configuration files
 
-* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[delta].
-* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori[kotori].
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[delta]
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori[kotori]

@@ -1,0 +1,51 @@
+= Delta
+
+== Changelog
+
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.1-delta-2.1.0[6.12.1-delta-2.1.0]
+
+==== CONFIG changes
+* *CONFIG_PREEMPT=y*
+* *CONFIG_CPUSETS_V1=N*
+* *CONFIG_MITIGATION_GDS=Y*
+* *CONFIG_MITIGATION_MDS=Y*
+* *CONFIG_MITIGATION_TAA=Y*
+* *CONFIG_MITIGATION_MMIO_STALE_DATA=Y*
+* *CONFIG_MITIGATION_L1TF=Y*
+* *CONFIG_MITIGATION_RETBLEED=Y*
+* *CONFIG_MITIGATION_SPECTRE_V1=Y*
+* *CONFIG_MITIGATION_SPECTRE_V2=Y*
+* *CONFIG_MITIGATION_SRBDS=Y*
+* *CONFIG_MITIGATION_SSB=Y*
+* *CONFIG_CFI_ICALL_NORMALIZE_INTEGERS=y*
+* *CONFIG_MODULE_COMPRESS=y*
+* *CONFIG_MODULE_COMPRESS_ZSTD=y*
+* *CONFIG_MODULE_DECOMPRESS=N*
+* *CONFIG_PCI_NPEM=N*
+* *CONFIG_OA_TC6=N*
+* *CONFIG_RTASE=N*
+* *CONFIG_THERMAL_CORE_TESTING=N*
+* *CONFIG_DRM_PANIC=y*
+* *CONFIG_DRM_PANIC_FOREGROUND_COLOR=0xffffff*
+* *CONFIG_DRM_PANIC_BACKGROUND_COLOR=0x000000*
+* *CONFIG_DRM_PANIC_DEBUG=N*
+* *CONFIG_DRM_PANIC_SCREEN=kmsg*
+* *CONFIG_SND_UTIMER=y*
+* *CONFIG_HID_GOODIX_SPI=N*
+* *CONFIG_RTC_DRV_SD2405AL=N*
+* *CONFIG_BCACHEFS_PATH_TRACEPOINTS=N*
+* *CONFIG_SECURITY_IPE=N*
+* *CONFIG_XZ_DEC_ARM64=n*
+* *CONFIG_XZ_DEC_RISCV=n*
+* *CONFIG_DEBUG_PREEMPT=N*
+* *CONFIG_PREEMPT_TRACER=N*
+* *CONFIG_KVM_INTEL=y*
+
+==== Release notes
+1. Major kernel upgrade to Linux-6.12
+2. Enable CONFIG_PREEMPT for low latency kernel.
+3. CONFIG_CFI_ICALL_NORMALIZE_INTEGERS=y is necessary for using CFI with Rust.
+4. Disabled CONFIG_SND_PCI as we do not use PCI devices for audio and has caused
+   an issue with alsa https://github.com/alsa-project/alsa-lib/issues/426.
+5. We need to enable CONFIG_KVM_INTEL in order for nvidia-drivers to compile as
+   this option implicitly enables CONFIG_MMU_NOTIFIER.

@@ -10,6 +10,11 @@ This repository holds my kernel configurations for each production system.
 
 === Contents
 
+==== Changelog
+
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/changelog/delta.adoc[delta]
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/changelog/kotori.adoc[kotori]
+
 ==== Kernel configuration files
 
 * https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[delta]

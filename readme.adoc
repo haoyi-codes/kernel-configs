@@ -1,0 +1,16 @@
+== Description
+
+[WARNING]
+====
+Since gitea does not support relative links for asciidoc files, I have used
+absolute links instead. This means that they will not work for mirrors.
+====
+
+This repository holds my kernel configurations for each production system.
+
+=== Contents
+
+==== Kernel configuration files
+
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[delta].
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori[kotori].

@@ -1,8 +1,8 @@
 = Changelog
 
-== https://src.reticentadmin.com/aryan/kernel-cofigs/src/branch/main/configs/kotori[Kotori]
+== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori[Kotori]
 
-=== https://src.reticentadmin.com/aryan/kernel-cofigs/src/branch/main/configs/kotori/6.12.1-kotori-5.2.0[6.12.1-kotori-5.2.0]
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.1-kotori-5.2.0[6.12.1-kotori-5.2.0]
 
 ==== CONFIG changes
 * *CONFIG_PREEMPT=y*
@@ -48,9 +48,9 @@
 4. Disabled CONFIG_SND_PCI as we do not use PCI devices for audio and has caused
    an issue with alsa https://github.com/alsa-project/alsa-lib/issues/426.
 
-== https://src.reticentadmin.com/aryan/kernel-cofigs/src/branch/main/configs/delta[Delta]
+== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[Delta]
 
-=== https://src.reticentadmin.com/aryan/kernel-cofigs/src/branch/main/configs/delta/6.12.1-delta-2.1.0[6.12.1-delta-2.1.0]
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.1-delta-2.1.0[6.12.1-delta-2.1.0]
 
 ==== CONFIG changes
 * *CONFIG_PREEMPT=y*

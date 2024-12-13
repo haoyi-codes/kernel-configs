@@ -53,7 +53,7 @@
 * *CONFIG_SND_PCI=n*
 
 ==== Release notes
-1. Major kernel upgrade to Linux-6.12
+1. Major kernel upgrade to Linux-6.12.
 2. Enable CONFIG_PREEMPT for low latency kernel.
 3. CONFIG_CFI_ICALL_NORMALIZE_INTEGERS=y is necessary for using CFI with Rust.
 4. Disabled CONFIG_SND_PCI as we do not use PCI devices for audio and has caused

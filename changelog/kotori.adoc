@@ -2,6 +2,17 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.4-kotori-5.3.0[6.12.4-kotori-5.3.0]
+
+==== CONFIG changes
+* *CONFIG_SENSORS_NCT6683=n*
+* *CONFIG_SENSORS_CORETEMP=y*
+
+==== Release notes
+1. Version bump to linux-6.12.4.
+2. Disabling CONFIG_SENSORS_NCT6683 as we do not require it.
+3. Enabling CONFIG_SENSORS_CORETEMP to monitor CPU temperature using lm-sensors.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.1-kotori-5.2.0[6.12.1-kotori-5.2.0]
 
 ==== CONFIG changes

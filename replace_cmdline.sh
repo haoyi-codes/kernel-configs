@@ -7,7 +7,7 @@
 # Copyright (c) 2024 Aryan
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 1.0.0
+# Version: 1.0.1
 
 # Colors
 green='\033[0;32m'
@@ -36,4 +36,4 @@ find "./configs/delta/" -type f -exec sed -i "s/^CONFIG_CMDLINE=.*/CONFIG_CMDLIN
 find "./configs/kotori/" -type f -exec sed -i "s/^CONFIG_CMDLINE=.*/CONFIG_CMDLINE=\"${kotori_cmd_line}\"/" {} + \
     || { echo "${red}Error replacing kotori command line parameters.${nc}"; exit 1; }
 
-echo "${green}Finished replacing command line parameters.${nc}"
+echo "${green}Successfully replaced command line parameters!${nc}"

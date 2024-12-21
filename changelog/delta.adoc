@@ -6,7 +6,7 @@
 
 ==== Release notes
 1. Version bump to Linux-6.12.6.
-2. Upgraded linux-firmware to 20241210
+2. Upgraded linux-firmware to 20241210.
 
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.4-delta-2.2.0[6.12.4-delta-2.2.0]
 

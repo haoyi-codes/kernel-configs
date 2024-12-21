@@ -19,3 +19,8 @@ This repository holds my kernel configurations for each production system.
 
 * https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta[delta]
 * https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori[kotori]
+
+==== Copying scripts
+
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/scripts/copy_kernel_config.sh[copy_kernel_config.sh]
+* https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/scripts/replace_cmdline.sh[replace_cmdline.sh]

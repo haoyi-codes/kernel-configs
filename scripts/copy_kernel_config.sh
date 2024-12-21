@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # Script Name: copy_kernel_config.sh
-# File Path: <kernel-configs-repo>/copy_kernel_config.sh
+# File Path: <kernel-configs-repo>/scripts/copy_kernel_config.sh
 # Description: Copy kernel configuration file.
 
 # Copyright (c) 2024 Aryan
 # SPDX-Licence-Identifier: BSD-3-Clause
 
-# Version: 3.0.0
+# Version: 3.0.1
 
 # Colors
 green='\033[0;32m'

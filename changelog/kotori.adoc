@@ -2,6 +2,19 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.8-kotori-5.7.0[6.12.8-kotori-5.7.0]
+
+==== Release notes
+1. Version bump to Linux-6.12.8.
+
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.7-kotori-5.6.0[6.12.7-kotori-5.6.0]
+
+==== CONFIG changes
+* *CONFIG_IMV_SCMI_MISC_DRV=N*
+
+==== Release notes
+1. Version bump to Linux-6.12.7.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.6-kotori-5.5.0[6.12.6-kotori-5.5.0]
 
 ==== Release notes

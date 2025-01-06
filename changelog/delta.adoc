@@ -2,6 +2,22 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.8-delta-2.4.0[6.12.8-delta-2.4.0]
+
+==== CONFIG changes
+* *CONFIG_GCC_PLUGINS=Y*
+* *CONFIG_GCC_PLUGIN_LATENT_ENTROPY=N*
+* *CONFIG_IMX_SCMI_MISC_DRV=N*
+* *CONFIG_GCC_PLUGIN_STACKLEAK=y*
+* *CONFIG_GCC_PLUGIN_STACKLEAK_VERBOSE=y*
+* *CONFIG_STACKLEAK_TRACK_MIN_SIZE=100*
+* *CONFIG_STACKLEAK_METRICS=N*
+* *CONFIG_STACKLEAK_RUNTIME_DISABLE=N*
+* *CONFIG_RANDSTRUCT_FULL=y*
+
+==== Release notes
+1. Version bump to Linux-6.12.8.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.6-delta-2.3.0[6.12.6-delta-2.3.0]
 
 ==== Release notes

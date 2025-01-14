@@ -2,6 +2,16 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.9-kotori-5.8.0[6.12.9-kotori-5.8.0]
+
+==== CONFIG changes
+1. *CONFIG_USER_NS=n*
+
+==== Release notes
+1. Version bump to Linux-6.12.9.
+2. Disable user namespaces.
+3. Upgraded linux-firmware to 20250109.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.8-kotori-5.7.0[6.12.8-kotori-5.7.0]
 
 ==== Release notes
@@ -24,7 +34,7 @@
 
 ==== Release notes
 1. Version bump to Linux-6.12.5.
-2. Upgraded linux-firmware to 20241210
+2. Upgraded linux-firmware to 20241210.
 
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.12.4-kotori-5.3.0[6.12.4-kotori-5.3.0]
 

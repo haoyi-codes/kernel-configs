@@ -2,6 +2,29 @@
 
 == Changelog
 
+=== 6.13.0-delta-3.0.0
+
+==== CONFIG changes
+1. *CONFIG_X86_BUS_LOCK_DETECT=Y*
+2. *CONFIG_ACPI_EC=n*
+3. *CONFIG_IP_NF_ARPTABLES=N*
+4. *CONFIG_BRIDGE_NF_EBTABLES_LEGACY=N*
+5. *CONFIG_PCIE_TPH=N*
+6. *CONFIG_MCHP_LAN966X_PCI=N*
+7. *CONFIG_PTP_1588_CLOCK_VMCLOCK=N*
+8. *CONFIG_SENSORS_ISL28022=N*
+9. *CONFIG_SENSORS_NCT7363=N*
+10. *CONFIG_PCIE_THERMAL=N*
+11. *CONFIG_MFD_CGBC=N*
+12. *CONFIG_VIDEO_RP1_CPE=N*
+13. *CONFIG_TINYDRM_SHARP_MEMORY=N*
+14. *CONFIG_HID_KYSONA=N*
+15. *CONFIG_AMD_3D_VCACHE=N*
+16. *CONFIG_DEBUG_NET_SMALL_RTNL=N*
+
+==== Release notes
+1. Major kernel upgrade to Linux-6.13.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.12.9-delta-2.5.0[6.12.9-delta-2.5.0]
 
 ==== CONFIG changes

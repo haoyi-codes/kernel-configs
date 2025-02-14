@@ -2,6 +2,13 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.13.2-kotori-6.2.0[6.13.2-kotori-6.2.0]
+
+==== Release notes
+1. Version bump to Linux-6.13.2.
+2. Upgraded microcode to intel-microcode-20250211_p20250211.
+3. Upgraded firmware to linux-firmware-20250211.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.13.1-kotori-6.1.0[6.13.1-kotori-6.1.0]
 
 ==== Release notes

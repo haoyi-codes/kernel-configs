@@ -2,6 +2,11 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.13.3-kotori-6.3.0[6.13.3-kotori-6.3.0]
+
+==== Release notes
+1. Version bump to Linux-6.13.3.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.13.2-kotori-6.2.0[6.13.2-kotori-6.2.0]
 
 ==== Release notes

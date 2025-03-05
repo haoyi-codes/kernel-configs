@@ -2,6 +2,16 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.13.5-delta-3.2.0[6.13.5-delta-3.2.0]
+
+==== Release notes
+1. Version bump to Linux-6.13.5.
+
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.13.4-delta-3.1.0[6.13.4-delta-3.1.0]
+
+==== Release notes
+1. Version bump to Linux-6.13.4.
+
 === 6.13.0-delta-3.0.0
 
 ==== CONFIG changes

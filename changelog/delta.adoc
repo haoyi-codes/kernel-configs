@@ -2,6 +2,14 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.13.5-delta-3.3.0[6.13.5-delta-3.3.0]
+
+==== CONFIG changes
+1. *CONFIG_USER_NS=y*
+
+==== Release notes
+1. Enabled user namespace support.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.13.5-delta-3.2.0[6.13.5-delta-3.2.0]
 
 ==== Release notes

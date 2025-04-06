@@ -2,6 +2,18 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.14.0-kotori-7.0.0[6.14.0-kotori-7.0.0]
+
+==== CONFIG changes
+CONFIG_CGROUP_DMEM=y
+CONFIG_X86_MCE_AMD=n
+CONFIG_EXTENDED_MODVERSIONS=y
+CONFIG_BASIC_MODVERSIONS=n
+CONFIG_PT_RECLAIM=Y
+
+==== Release notes
+1. Major kernel upgrade to Linux-6.14.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.13.5-kotori-6.5.0[6.13.5-kotori-6.5.0]
 
 ==== Release notes

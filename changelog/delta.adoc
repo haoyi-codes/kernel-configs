@@ -2,6 +2,33 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.14.1-delta-4.1.0[6.14.1-delta-4.1.0]
+
+==== Release notes
+1. Version bump to Linux-6.14.1.
+
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.14.0-delta-4.0.0[6.14.0-delta-4.0.0]
+
+==== CONFIG changes
+CONFIG_CGROUP_DMEM=y
+CONFIG_X86_MCE_AMD=n
+CONFIG_GENKSYMS=y
+CONFIG_EXTENDED_MODVERSIONS=y
+CONFIG_BASIC_MODVERSIONS=n
+CONFIG_PT_RECLAIM=Y
+CONFIG_NTSYNC=y
+CONFIG_PPS_GENERATOR=N
+CONFIG_MFD_UPBOARD_FPGA=N
+CONFIG_DRM_CLIENT_LOG=y
+CONFIG_DRM_CLIENT_DEFAULT_FBDEV=y
+CONFIG_DRM_HISI_HIBMC=N
+CONFIG_THC_HID=N
+CONFIG_FUSE_IO_URING=n
+CONFIG_CRC_OPTIMIZATIONS=Y
+
+==== Release notes
+1. Major kernel upgrade to Linux-6.14.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/delta/6.13.5-delta-3.3.0[6.13.5-delta-3.3.0]
 
 ==== CONFIG changes

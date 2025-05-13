@@ -2,6 +2,33 @@
 
 == Changelog
 
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.14.5-kotori-7.6.0[6.14.5-kotori-7.6.0]
+
+==== CONFIG changes
+CONFIG_HID_UNIVERSAL_PIDFF=N
+CONFIG_NFS_FS=y
+CONFIG_NFS_V4=y
+CONFIG_NFS_V4_1=y
+CONFIG_NFS_V4_2=y
+CONFIG_NFS_DISABLE_UDP_SUPPORT=y
+CONFIG_NFS_V4_2_READ_PLUS=y
+CONFIG_NFSD=y
+CONFIG_NFSD_V4=y
+CONFIG_NFSD_V4_SECURITY_LABEL=y
+CONFIG_NFSD_LEGACY_CLIENT_TRACKING=n
+CONFIG_NTFS3_FS=y
+CONFIG_NTFS3_LZX_XPRESS=y
+
+==== Release notes
+1. Version bump to Linux-6.14.5.
+2. Enabled NFS (since using alongside wireguard adds encryption and authentication).
+3. Enabled NTFS to mount windows partitions.
+
+=== https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.14.1-kotori-7.1.0[6.14.1-kotori-7.1.0]
+
+==== Release notes
+1. Version bump to Linux-6.14.1.
+
 === https://src.reticentadmin.com/aryan/kernel-configs/src/branch/main/configs/kotori/6.14.0-kotori-7.0.0[6.14.0-kotori-7.0.0]
 
 ==== CONFIG changes
